@@ -1,5 +1,5 @@
 {
-   gSystem->Load("libPhysicsToolsFWLite");
+   gSystem->Load("libFWCoreFWLite");
    AutoLibraryLoader::enable();
    TChain jets("Events");
    jets.Add("jets.root");
